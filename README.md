@@ -2,6 +2,9 @@
 
 A big data-based system for recommending universities for Chinese students.
 
+## Architecture
+[<img src="https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/Architecture.png"/>](https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/Architecture.png)
+
 ## Requirements
 
 * Java Environment
@@ -9,7 +12,7 @@ A big data-based system for recommending universities for Chinese students.
 * A patient heart
 
 ## To Do List
-- [ ] Upload System Architecture Image
+- [x] Upload System Architecture Image
 - [ ] Upload Code
 - [ ] Upload Demo GIF Images
 
