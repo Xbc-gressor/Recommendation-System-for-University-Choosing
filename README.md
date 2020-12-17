@@ -21,17 +21,17 @@ A big data-based system for recommending universities for Chinese students.
 
 ## Function 1
 In this function, the user can query the casting line of a university and the score lines of different majors.
->The Only thing the user need to do is to input  **the name of the university** in the search box and press the <kbd>Enter</kbd>.
+>The only thing the user need to do is to input  **the name of the university** in the search box and press the <kbd>Enter</kbd>.
 
 
 ## Function 2
 In this function, the user can query the score line of one major in different universities.
->The Only thing the user need to do is to input **the name of the major** and choose the **province**, **year** and **student type(Science or Arts)**. After that, press the <kbd>Enter</kbd>.
+>The only thing the user need to do is to input **the name of the major** and choose the **province**, **year** and **student type(Science or Arts)**. After that, press the <kbd>Enter</kbd>.
 
 
 ## Function 3
 In this function, the user can query the Admissions Regulations of different universities.
->The Only thing the user need to do is to input  **the name of the university** in the search box and press the <kbd>Enter</kbd>. (Just like the function 1)
+>The only thing the user need to do is to input  **the name of the university** in the search box and press the <kbd>Enter</kbd>. (Just like the function 1)
 
 
 ## Function 4
