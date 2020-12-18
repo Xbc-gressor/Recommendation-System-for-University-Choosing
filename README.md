@@ -13,8 +13,8 @@ A big data-based system for recommending universities for Chinese students.
 
 ## To Do List
 - [x] Upload System Architecture Image
-- [ ] Upload Code
-- [ ] Upload Demo GIF Images
+- [x] Upload Code
+- [x] Upload Demo GIF Images
 
 ## Functions
 1. [Query the casting line of a university and the score lines of different majors](#function-1)
