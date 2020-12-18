@@ -51,7 +51,7 @@ Before you start to install this project, I hope you are already familiar with t
 * Create a Dynamic Java web project in Eclipse, and select Tomcat v9.0 for Target runtime
 * Import the jar package in the **lib** folder to the project (remember to Build Path)
 * Unzip the **data** compression package and put it in a specific place (wherever you like)
-* Change the dataPath variable in the Servlet Java file to the absolute address of your data file
+* Change the dataPath variable in the Servlet Java files to the absolute address of your data folder
 * Put the front-end code (in the **Interface** folder) into the **WebContent** folder of the web project
 * Start the server and try to use it
 
