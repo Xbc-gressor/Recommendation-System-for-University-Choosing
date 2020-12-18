@@ -27,26 +27,26 @@ A big data-based system for recommending universities for Chinese students.
 
 ## Function 1
 In this function, the user can query the casting line of a university and the score lines of different majors.
->The only thing the user need to do is to input  **the name of the university** in the search box and press the <kbd>Enter</kbd>.
+>The only thing the user needs to do is to input  **the name of the university** in the search box and press the <kbd>Enter</kbd>.
 
 [<img src="https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/functiongif/function1.gif"/>](https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/functiongif/function1.gif)
 
 ## Function 2
 In this function, the user can query the score line of one major in different universities.
->The only thing the user need to do is to input **the name of the major** and choose the **province**, **year** and **student type(Science or Arts)**. After that, press the <kbd>Enter</kbd>.
+>The only thing the user needs to do is to input **the name of the major** and choose the **province**, **year** and **student type(Science or Arts)**. After that, press the <kbd>Enter</kbd>.
 
 [<img src="https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/functiongif/function2.gif"/>](https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/functiongif/function2.gif)
 
 ## Function 3
 In this function, the user can query the Admissions Regulations of different universities.
->The only thing the user need to do is to input  **the name of the university** in the search box and press the <kbd>Enter</kbd>. (Just like the function 1)
+>The only thing the user needs to do is to input  **the name of the university** in the search box and press the <kbd>Enter</kbd>. (Just like the function 1)
 
 [<img src="https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/functiongif/function3.gif"/>](https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/functiongif/function3.gif)
 
 ## Function 4
 In this function, the system will recommend different major in different universities for the user.
 
->For a better recommendation, the user need to enter his  **score**, **province** and **student types(Science or Arts)**. After that, press the <kbd>Enter</kbd>.
+>For a better recommendation, the user needs to enter his  **score**, **province** and **student types(Science or Arts)**. After that, press the <kbd>Enter</kbd>.
 
 [<img src="https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/functiongif/function4.gif"/>](https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/functiongif/function4.gif)
 
