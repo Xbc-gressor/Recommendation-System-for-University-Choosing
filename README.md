@@ -44,7 +44,7 @@ In this function, the user can query the Admissions Regulations of different uni
 [<img src="https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/functiongif/function3.gif"/>](https://github.com/Re-bin/Recommendation-System-for-University-Choosing/blob/main/functiongif/function3.gif)
 
 ## Function 4
-In this function, the system will recommend different major in different universities for the user.
+In this function, the system will recommend different majors in different universities for the user.
 
 >For a better recommendation, the user needs to enter his  **score**, **province** and **student types(Science or Arts)**. After that, press the <kbd>Enter</kbd>.
 
