@@ -22,6 +22,9 @@ A big data-based system for recommending universities for Chinese students.
 3. [Query the Admissions Regulations of different universities](#function-3)
 4. [Recommend universities and majors](#function-4)
 
+## Data
+* [Google Drive](https://drive.google.com/file/d/1B73X0fv0peAv6m6VQZfnB7Tt9EnMiP9V/view?usp=sharing)
+
 ## Function 1
 In this function, the user can query the casting line of a university and the score lines of different majors.
 >The only thing the user need to do is to input  **the name of the university** in the search box and press the <kbd>Enter</kbd>.
