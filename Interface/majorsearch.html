@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/libs/css/style.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/vendor/charts/chartist-bundle/chartist.css">
+    <link rel="stylesheet" href="assets/vendor/charts/morris-bundle/morris.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-select/css/bootstrap-select.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.3/dist/bootstrap-table.min.css">
+    <title></title>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+        <!-- ============================================================== -->
+        <!-- navbar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <a class="navbar-brand" href="index.html">志 愿 汇</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end navbar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+        <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">功 能 栏</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+
+                            </li>
+                            <a class="nav-link" href="index.html"><i class="fa fa-fw fa-user-circle"></i>主 页</a>
+                            <li class="nav-divider">
+                                功 能
+                            </li>
+                            <a class="nav-link" href="scoreline.html"><i class="ti-stats-up"></i>分 数 线 及 录 取 人 数</a>
+                            <a class="nav-link active" href="majorsearch.html"><i class="ti-blackboard"></i>定 向 专 业 查 询</a>
+                            <a class="nav-link" href="brochure.html"><i class="ti-book"></i>招 生 简 章</a>
+                            <a class="nav-link" href="recommend.html"><i class="ti-check-box"></i>院 校 专 业 推 荐</a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end left sidebar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper" style="background-image:url(assets/images/testimage.jpg);background-size: 100% 100%;background-repeat: no-repeat;">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <!-- ============================================================== -->
+                    <!-- pageheader  -->
+                    <!-- ============================================================== -->
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header">
+                                <h2 class="pageheader-title">志愿汇查青云去 却笑人间举子忙
+                                </h2>
+                                <div class="page-breadcrumb">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">功能</a></li>
+                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">定向专业查询</a></li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- end pageheader  -->
+                    <!-- ============================================================== -->
+                    <div class="ecommerce-widget">
+
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <form class="form-inline">
+                                        <div class="form-group mx-sm-3 my-1">
+                                        <input type="text" class="form-control" id="majorname" placeholder="专业名称" onkeydown="if(event.keyCode==13) {majorsearch();}">
+                                        <input type="text" class="form-control" style="display:none">
+                                        </div>
+                                        <p>&nbsp&nbsp&nbsp&nbsp</p>
+                                        <!-- 选择省份 -->
+                                        <select class="selectpicker", id = "province" title="省份">
+                                            <option value="1" selected>北京</option>
+                                            <option value="2">天津</option>
+                                            <option value="3">河北</option>
+                                            <option value="4">辽宁</option>
+                                            <option value="5">吉林</option>
+                                            <option value="6">黑龙江</option>
+                                            <option value="7">山东</option>
+                                            <option value="8">江苏</option>
+                                            <option value="9">上海</option>
+                                            <option value="10">浙江</option>
+                                            <option value="11">安徽</option>
+                                            <option value="12">福建</option>
+                                            <option value="13">江西</option>
+                                            <option value="14">广东</option>
+                                            <option value="15">广西</option>
+                                            <option value="16">海南</option>
+                                            <option value="17">河南</option>
+                                            <option value="18">湖南</option>
+                                            <option value="19">湖北</option>
+                                            <option value="20">山西</option>
+                                            <option value="21">内蒙古</option>
+                                            <option value="22">宁夏</option>
+                                            <option value="23">青海</option>
+                                            <option value="24">陕西</option>
+                                            <option value="25">甘肃</option>
+                                            <option value="26">新疆</option>
+                                            <option value="27">四川</option>
+                                            <option value="28">贵州</option>
+                                            <option value="29">云南</option>
+                                            <option value="30">重庆</option>
+                                            <option value="31">西藏</option>
+                                            <option value="32">香港</option>
+                                            <option value="33">台湾</option>
+                                        </select>
+                                        <p>&nbsp&nbsp&nbsp&nbsp</p>
+                                        <!-- 选择年份 -->
+                                        <select class="selectpicker", id = "year" title="年份">
+                                            <option value="2015" selected> 2015 </option>
+                                            <option value="2016"> 2016 </option>
+                                            <option value="2017"> 2017 </option>
+                                        </select>
+                                        <p>&nbsp&nbsp&nbsp&nbsp</p>
+                                        <!-- 选择文理科 -->
+                                        <select class="selectpicker", id = "type" title="文理科">
+                                            <option value="1" selected> 理科 </option>
+                                            <option value="2"> 文科 </option>
+                                        </select>
+                                        <p>&nbsp&nbsp&nbsp&nbsp</p>
+                                        <!-- 查询按钮 -->
+                                        <button type="button" class="btn btn-primary" id="major-search" onclick="majorsearch()">查 询</button>
+                                    </form>
+                                    <br>
+                                    <hr>
+                                    <br>
+                                    <!-- 表格 -->
+                                    <table id="table"></table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- end footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- end wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper  -->
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+    <!-- jquery 3.3.1 -->
+    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <!-- bootstap bundle js -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- slimscroll js -->
+    <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <!-- main js -->
+    <script src="assets/libs/js/main-js.js"></script>
+    <!-- chart chartist js -->
+    <script src="assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
+    <!-- sparkline js -->
+    <script src="assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
+    <!-- morris js -->
+    <script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
+    <script src="assets/vendor/charts/morris-bundle/morris.js"></script>
+    <!-- chart c3 js -->
+    <script src="assets/vendor/charts/c3charts/c3.min.js"></script>
+    <script src="assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
+    <script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
+    <script src="assets/libs/js/dashboard-ecommerce.js"></script>
+    <script src="assets/vendor/bootstrap-select/js/bootstrap-select.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/bootstrap-table.min.js"></script>
+    <!-- Latest compiled and minified Locales -->
+    <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/locale/bootstrap-table-zh-CN.min.js"></script>
+    <!-- ECharts -->
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/libs/js/majorsearch.js"></script>
+</body>
+
+</html>
