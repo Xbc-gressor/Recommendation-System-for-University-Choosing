@@ -46,7 +46,8 @@ In this function, the system will recommend different major in different univers
 ## How To Use It
 >Well, this is a good question, isn't it?
 
-Before you start to install this project, I hope you are already familiar with the use of **tomcat** and **Eclipse**.Believe me, this project can be successfully configured according to the following process (because I did just that).
+Before you start to install this project, I hope you are already familiar with the use of **tomcat** and **Eclipse**. Believe me, this project can be successfully configured according to the following process (because I did just that).
+
 * Create a Dynamic Java web project in Eclipse, and select Tomcat v9.0 for Target runtime
 * Import the jar package in the **lib** folder to the project (remember to Build Path)
 * Unzip the **data** compression package and put it in a specific place (wherever you like)
