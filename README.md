@@ -63,4 +63,4 @@ Before you start to install this project, I hope you are already familiar with t
 * Put the front-end code (in the **Interface** folder) into the **WebContent** folder of the web project
 * Start the server and try to use it
 
-If you encounter any problems during the process, please submit an issue.
+If you encounter any problems during the process, please submit an issue. Thanks.
